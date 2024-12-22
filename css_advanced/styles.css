@@ -1,1 +1,1157 @@
-me
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+position: absolute;
+width: 1103.41px;
+height: 29.46px;
+left: 171.59px;
+top: 35.02px;
+}
+
+.logo{
+    position: absolute;
+width: 167.02px;
+height: 29.46px;
+left: 171.59px;
+top: 35.02px;
+}
+ 
+.smileschool{
+    position: absolute;
+width: 111.83px;
+height: 12.58px;
+left: 226.77px;
+top: 41.54px;
+background: #FFFFFF;
+}
+
+.banner{
+    width: 1440px;
+    height: 1093px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./images/object.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    height: 15px;
+    left: 43.59%;
+    right: 37.18%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    }
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFFFFF;  
+    text-transform: uppercase;
+}
+
+
+
+
+.menu{
+    position: absolute;
+width: 234px;
+height: 15px;
+left: 1041px;
+top: 37px;
+}
+
+.hero-heading{
+    position: absolute;
+        height: 151px;
+        left: 26.18%;
+        right: 26.32%;
+        top: calc(50% - 151px/2 - 251px);
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+        font-weight: 700;
+        font-size: 120px;
+        line-height: 151px;
+        text-align: center;
+      color: #FFFFFF;
+      width: 684px;
+     height: 151px;
+     top: 220px;
+     left: 377px;
+    gap: 0px;
+    opacity: 0px;
+
+      }
+
+      .emojis {
+        position: absolute;
+        height: 20px;
+        top: calc(50% - 20px / 2 - 175.5px);
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .emoji {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+      
+      .button {
+        position: absolute;
+        left: 44.38%;
+        right: 44.38%;
+        top: 38.33%;
+        bottom: 57.64%;
+        filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+      }
+      
+      .button-background {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #c271ff;
+        border-radius: 22px;
+        position: absolute;
+
+      }
+      
+      .button-text {
+        position: absolute;
+        height: 18px;
+        left: 12.35%;
+        right: 12.96%;
+        top: calc(50% - 18px / 2);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .section-title {
+        position: absolute;
+        height: 40px;
+        left: 41.94%;
+        right: 39.93%;
+        top: calc(50% - 40px/2 + 104.5px);
+        
+        
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #c271ff;
+      }
+      
+      .pros {
+        position: absolute;
+        width: 1009px;
+        height: 237px;
+        left: 217px;
+        top: 758px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .pro {
+        position: relative;
+        width: 150px;
+        text-align: center;
+      }
+
+      
+      .pro h3 {
+        position: absolute;
+        height: 27px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 27px / 2 + 55px);
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 27px;
+        color: #ffffff;
+      }
+      
+      .pro p {
+        position: absolute;
+        height: 48px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 48px / 2 + 94.5px);
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+      
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Part 1: Testimonials Section */
+
+/* Background */
+.testimonial-background {
+  position: absolute;
+  width: 1440px;
+  height: 392px;
+  left: -1px;
+  top: 1093px;
+  background: #C271FF;
+}
+
+/* Testimonial Container */
+.testimonial-container {
+  position: absolute;
+  width: 943px;
+  height: 160px;
+  left: 259px;
+  top: 1201px;
+}
+
+/* Avatar (Image) */
+.testimonial-avatar {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 259px;
+  top: 1201px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  border-radius: 50%; 
+  
+}
+
+/* Bitmap Image */
+.testimonial-bitmap {
+  position: absolute;
+  width: 394px;
+  height: 341px;
+  left: 142px;
+  top: 1176px;
+  background: url('images/5.png') no-repeat center center;
+  background-size: cover;
+}
+
+/* Testimonial Text */
+.testimonial-text {
+  position: absolute;
+  width: 730px;
+  height: 158px;
+  left: 472px;
+  top: 1203px;
+}
+
+/* Weather Presenter Text */
+.weather-presenter {
+  position: absolute;
+  height: 34px;
+  left: 0%;
+  right: 77.4%;
+  top: calc(50% - 34px/2 + 62px);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+/* Person Name */
+.person-name {
+  position: absolute;
+  height: 34px;
+  left: 0%;
+  right: 82.33%;
+  top: calc(50% - 34px/2 + 28px);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+/* Testimonial Quote */
+.testimonial-quote {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 56.96%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .popular-tutorials {
+        padding: 40px 0;
+        background-color: #f9f9f9;
+      }
+      
+      .popular-tutorials h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .popular-tutorials h2 span {
+        color: #ff7f50;
+      }
+      
+      .tutorials-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 0 20px;
+      }
+      
+      .tutorial-card {
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        position: relative;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .image-container {
+        position: relative;
+      }
+      
+      .main-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      
+      .overlay-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40px;
+        opacity: 0.7;
+      }
+      
+      h3 {
+        font-size: 22px;
+        margin-top: 15px;
+        font-weight: bold;
+      }
+      
+      p {
+        font-size: 14px;
+        color: #666;
+        margin: 10px 0;
+      }
+      
+      .author {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
+      
+      .author-image {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      
+      .stars {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .star {
+        width: 12px;
+        height: 12px;
+        background-color: #ffd700;
+        margin: 0 2px;
+        border-radius: 50%;
+      }
+      
+      .star-1, .star-2, .star-3, .star-4, .star-5 {
+        background-color: #ffd700;
+      }
+      
+      .time {
+        font-size: 12px;
+        color: #999;
+        margin-top: 10px;
+      }
+      
+      @media screen and (max-width: 1200px) {
+        .tutorials-container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      
+      @media screen and (max-width: 900px) {
+        .tutorials-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .tutorials-container {
+          grid-template-columns: 1fr;
+        }
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* part_3_free_membership */
+.free-membership {
+  position: absolute;
+  width: 1440px;
+  height: 502px;
+  left: 0px;
+  top: 2109px;
+  background: #071629;
+}
+
+/* Free membership title */
+.free-membership-title {
+  position: absolute;
+  height: 40px;
+  left: 42.85%;
+  right: 40.9%;
+  top: calc(50% - 40px / 2 - 161px);
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40.22px;
+  text-align: center;
+  color: #C271FF;
+}
+
+.free-membership-title .highlight {
+  color: #C271FF; 
+}
+
+.button{
+  position: absolute;
+left: 44.38%;
+right: 44.38%;
+top: 80.88%;
+bottom: 10.36%;
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+/* Button background */
+.register-background {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #C271FF;
+  border-radius: 22px;
+}
+
+/* REGISTER FOR FREE */
+.register-text {
+  position: absolute;
+  height: 18px;
+  left: 13.27%;
+  right: 12.04%;
+  top: calc(50% - 18px/2);
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Button with drop shadow */
+.register-btn {
+  position: absolute;
+  left: 44.38%;
+  right: 44.38%;
+  top: 80.88%;
+  bottom: 10.36%;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+/* Button Background */
+.register-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #C271FF;
+  border-radius: 22px;
+}
+
+
+.register-text {
+  position: absolute;
+  height: 18px;
+  left: 13.27%;
+  right: 12.04%;
+  top: calc(50% - 18px / 2);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Benefit section */
+.benefit {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+}
+
+.benefit:nth-child(1) {
+  left: 8%;
+  top: 15%;
+}
+
+.benefit:nth-child(2) {
+  left: 28%;
+  top: 15%;
+}
+
+.benefit:nth-child(3) {
+  left: 48%;
+  top: 15%;
+}
+
+.benefit:nth-child(4) {
+  left: 68%;
+  top: 15%;
+}
+
+/* Dot positioning */
+.dot {
+  position: absolute;
+  background: #C271FF;
+  border-radius: 50%;
+}
+
+.dot dot-1 {
+  left: 11.39%;
+  right: 70.76%;
+width: 257px;
+height: 153px;
+}
+
+
+
+
+.dot dot-2 {
+  left: 31.11%;
+  top: 33.47%;
+  width: 257px;
+  height: 153px;
+}
+
+.dot dot-3 {
+  left: 50.9%;
+  top: 33.47%;
+  width: 257px;
+  height: 153px;
+}
+
+.dot dot-4 {
+  left: 70.76%;
+  top: 33.47%;
+  width: 257px;
+  height: 153px;
+}
+
+
+
+/* Smile image */
+.smile {
+  position: absolute;
+  width: 257px;
+  height: 153px;
+  left: 106.71px;
+  top: 0.03px;
+}
+
+/* Benefit title */
+.benefit-title {
+  position: absolute;
+  height: 26px;
+  left: 0.19%;
+  right: 0.19%;
+  top: calc(50% - 26px/2 - 1.5px);
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Benefit description */
+.benefit-description {
+  position: absolute;
+  height: 52px;
+  left: 8.75%;
+  right: 8.75%;
+  top: calc(50% - 52px/2 + 50.5px);
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.part-4-faq {
+  position: absolute;
+  width: 920px;
+  height: 707px;
+  left: 249px;
+  top: 2678px;
+}
+
+
+.faq-heading {
+  position: absolute;
+  height: 75px;
+  left: 44.24%;
+  right: 40.98%;
+  top: calc(50% - 75px / 2 - 316px);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  color: #071629;
+}
+
+
+.q1 {
+  position: absolute;
+  left: 0%;
+  right: 61.96%;
+  top: 21.07%;
+  bottom: 44.7%;
+}
+
+.q1 .question {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #071629;
+}
+
+.q1 .answer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.501584);
+}
+
+
+.q2 {
+  position: absolute;
+  left: 61.96%;
+  right: 0%;
+  top: 21.07%;
+  bottom: 44.7%;
+}
+
+.q2 .question {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #071629;
+}
+
+.q2 .answer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.501584);
+}
+
+
+.q3 {
+  position: absolute;
+  left: 0%;
+  right: 61.96%;
+  top: 65.77%;
+  bottom: 0%;
+}
+
+.q3 .question {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #071629;
+}
+
+.q3 .answer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.501584);
+}
+
+
+.q4 {
+  position: absolute;
+  left: 61.96%;
+  right: 0%;
+  top: 65.77%;
+  bottom: 0%;
+}
+
+.q4 .question {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #071629;
+}
+
+.q4 .answer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.501584);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 249px;
+  left: 0;
+  top: 3469px;
+  background-color: #071629;
+}
+
+
+.logo {
+  position: absolute;
+  left: 11.46%;
+  top: 38.15%;
+  font-family: 'Coiny', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+
+.smile {
+  position: absolute;
+  width: 36.39px;
+  height: 29.46px;
+  left: 0.59px;
+  top: 0.02px;
+}
+
+
+.smileschool-text {
+  position: absolute;
+  height: 15px;
+  left: 46.67%;
+  top: calc(50% - 15px / 2 + 78px);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  opacity: 0.35;
+  mix-blend-mode: normal;
+}
+
+.icon {
+  position: absolute;
+  left: 74.31%;
+  right: 23.61%;
+  top: 36.14%;
+  bottom: 51.81%;
+  background: #FFFFFF;
+  border-radius: 50%; /* Optional: creates a rounded shape */
+}
+
+/* Social Icons */
+.social-icons {
+  position: absolute;
+  width: 130px;
+  height: 30px;
+  left: 1070px;
+  top: 90px;
+  display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Social Icon Style */
+.social-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+/* Instagram */
+.instagram {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1170px;
+  top: 90px;
+  background: #FFFFFF;
+}
+.instagram .path {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  clip-path: path('M...'); /* Define the path for the shape */
+}
+/* Twitter */
+.twitter {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1120px;
+  top: 90px;
+  background: #FFFFFF;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Twitter Icon Path (Shape) */
+.twitter .path {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  clip-path: path('M...'); /* Define the path for the shape */
+}
+/* Facebook */
+.facebook {
+  position: absolute;
+  left: 74.31%;
+  right: 23.61%;
+  top: 36.14%;
+  bottom: 51.81%;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Optional: makes the icon circular */
+}
+
+/* Facebook Path */
+.facebook .path {
+  position: absolute;
+  left: 75.07%;
+  right: 24.4%;
+  top: 38.96%;
+  bottom: 54.49%;
+  background: #FFFFFF;
+  clip-path: path('M...'); /* Replace with actual path data */
+}
+/* Footer Background */
+.footer-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #071629;
+}
+
+
+  
