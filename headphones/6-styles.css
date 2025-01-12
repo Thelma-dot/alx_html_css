@@ -1,0 +1,333 @@
+body{
+  margin: 0;
+  padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+  }
+.hero-section {
+    position: relative;
+    text-align: center;
+    background: url(./images/headphones_hero_1.jpg);
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+header .logo{
+  display: flex;
+  padding: 20px 50px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+nav ul li a:hover{
+  color: #FF6565;
+}
+.hero-content {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 0 20px;
+}
+.hero-content h1 {
+  position: relative;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.hero-content .subtitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hero-content .cta-button {
+  display: inline-block;
+  margin: 20px 0;
+  background-color: #ff6b6b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.hero-content .cta-button:hover {
+  opacity: 0.9; 
+}
+.hero-content .description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #071629;
+}
+.feature h3{
+  font-size: 16px;
+  color: #071629;
+}
+section p{
+  color:#071629;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.feature {
+  max-width: 250px;
+  text-align: center;
+}
+.feature img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.feature p{
+  color: #071629;
+  font-size: 16px;
+}
+.results-section{
+  position: relative;
+  text-align: center;
+    background-image: url(./images/headphones_hero_2.jpg);
+    height: 100vh;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  display: flex;
+   align-items: center;
+   margin: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.results-section p{
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.results-content h2{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.results-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: #ffffff;
+}
+.results-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.result-item {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+.pentagon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.pentagon {
+  position: relative;
+  width: 120px;
+  height: 125px;
+  background-color: #ff6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin: 0 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pentagon-content {
+  text-align: center;
+}
+.pentagon h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.pentagon p {
+  font-size: 12px;
+  margin: 5px 0 0;
+  color: #ffffff;
+}
+.contact-container {
+  background: #ffffff;
+border-radius: 10px;
+  padding: 20px 30px;
+  text-align: center;
+}
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.form-group {
+  margin-bottom: 2px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.contact button {
+  background: #ff4a57;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.contact button:hover {
+  background: #ff2a39;
+}
+.form-group input, 
+    .form-group textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+     font-size: 16px;
+}
+.form-group button {
+      display: inline-block;
+      margin: 20px 0;
+      background-color: #ff6565;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+}
+    .form-group button:hover {
+      opacity: 0.9;
+}
+footer {
+  background: #071629;
+  color: #ffffff;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+.footer-container p{
+  text-align: center;
+  font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+footer .socials a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.social-icons a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.social-icons svg{
+  position: relative;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffffff; 
+  padding: 5px;
+cursor: pointer;
+left: 650px;
+top: -80px;
+}
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
